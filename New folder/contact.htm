@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivon: Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">  
+</head>
+<body style= "background-color: rgba(0, 0, 255, 0.623);">
+    <nav style="display: flex; justify-content: space-around; width: 100%; height: fit-content; background-color: rgba(29, 38, 163, 0.829);">
+        <div class="school-icon">
+            <img src="media/Images/Logo/logo3.jpg" alt="School Icon" style="height: 70%; padding: 30px;">
+        </div>
+
+        <div class="school-name">
+            <h1 style="color: white;">Ivon Schools</h1>
+        </div>
+
+        <div style="padding-top: 150px; margin: none; display: inline; color: whitesmoke;">Making A Difference!</div>
+        
+        <div class="page-buttons">
+            <a href="index.html">
+                <button class="about-button">
+                        Home
+                </button>
+            </a>
+    <a href="service.htm">
+        <button class="service-button">
+                 Our Services
+        </button>
+    </a>
+    <a href="contact.htm">
+        <button class="contact-button">
+            Contact us
+        </button>
+    </a>
+        </div>
+   
+    </nav>
+        <br>
+        <br>
+        
+
+
+		<h3>Contact us</h3>
+
+
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            </div>
+            
+            <div>
+            <label for="contact reason">Contact Reason</label>
+        <select id="contact reason" name="contact reason">
+          <option value="sales">Sales</option>
+          <option value="help">Help</option>
+          <option value="billing">Billing</option>
+        </select>
+            </div>
+            
+            <br>
+            <input type="checkbox" id="newsletter" name="newsletter" value="newslettersignup">
+      <label for="newsletter">Join our newsletter</label><br>
+
+</body>
+</html>
